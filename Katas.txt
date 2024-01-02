@@ -1,3 +1,7 @@
 #########################################################################
 						Kata1
 #########################################################################
+1.- Que versión de java se requiere para trabajar con Spring Boot 3?
+2.- Para que sirve spring boot?
+3.- Que incluye spring boot de manera embebida?
+4.- Como ejecutar desde linea de comandos una app de spring boot? Como deployar en un servidor externo? Que significa War
