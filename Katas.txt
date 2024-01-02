@@ -5,3 +5,21 @@
 2.- Para que sirve spring boot?
 3.- Que incluye spring boot de manera embebida?
 4.- Como ejecutar desde linea de comandos una app de spring boot? Como deployar en un servidor externo? Que significa War
+5.- Que significa que una version diga snapshot
+
+#########################################################################
+						Kata2
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\01-spring-boot-demo
+1.- Como se hace bootstrap de la aplicación de Spring, que anotación ocupa y como se ejecuta
+2.- Crear un rest controller que simplemente diga "hello world"
+3.- Como cambiar el puerto de la aplicación
+4.- Correr la aplicación
+
+#########################################################################
+						Kata3
+#########################################################################
+1.- Cuales son las principales caracteristicas de Spring
+2.- Para que sirve un core container y que elemenots contiene un core container
+3.- Que es AOP, que hace y como esta conformado
+4.- Para que sirve el data access layer? y de que componentes esta conformado

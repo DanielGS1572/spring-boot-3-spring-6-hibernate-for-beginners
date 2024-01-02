@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class FunRestController {
 
-    // expose "/" that return "Hello World"
+    // expose endpointf "/" that return "Hello World"
 
     @GetMapping("/")
-    public String sayHello() {
+    public String sayHello() {      //ver como el nombre del metodo al menos aquí no tiene implicación
         return "Hello World!";
     }
 }
