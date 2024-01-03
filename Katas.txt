@@ -23,3 +23,18 @@ spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\01-spring
 2.- Para que sirve un core container y que elemenots contiene un core container
 3.- Que es AOP, que hace y como esta conformado
 4.- Para que sirve el data access layer? y de que componentes esta conformado
+5.- Que otras api se pueden integrar con spring?
+6.- Cuales son los elementos de test layer? y 3 elementos que soporta
+7.- Que es un servlet?
+8.- Que son spring projects?
+
+#########################################################################
+						Kata4
+#########################################################################
+1.- Donde se configura para que se generen los reportes de JUnit?
+2.- Que es GAV? y que representa cada nomenclatura? que es project coordinates?
+3.- Que se guarda en src/main/webapp? donde se guarda el código principal (source code) de java?
+4.- Cual es la estructura de POM? (Compuesto de 3 elementos)
+5.- Al usar spring initializer para que sirve el archivo mvnw? que significa la w?
+6.- Que significa que una dependencia tenga la palabra starter?
+7.- Dentro del pom que se usa para empaquetar el proyecto en war/jar y cuales son los dos comandos para empaquetar? como sería si no se tiene mvn en la maquina local?
