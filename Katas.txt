@@ -38,3 +38,7 @@ spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\01-spring
 5.- Al usar spring initializer para que sirve el archivo mvnw? que significa la w?
 6.- Que significa que una dependencia tenga la palabra starter?
 7.- Dentro del pom que se usa para empaquetar el proyecto en war/jar y cuales son los dos comandos para empaquetar? como sería si no se tiene mvn en la maquina local?
+8.- como trabajar con propiedades y como invocarlas
+9.- De donde jala recursos como html, css y js? de que carpeta
+10.- Que carpeta no usar cuando se trabaje con jar? (si usar si se usa .war) ... que sucede con la mayoría de los build tools
+11.- Con que template engines spring boot hace autoconfiguración
