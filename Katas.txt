@@ -42,3 +42,12 @@ spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\01-spring
 9.- De donde jala recursos como html, css y js? de que carpeta
 10.- Que carpeta no usar cuando se trabaje con jar? (si usar si se usa .war) ... que sucede con la mayoría de los build tools
 11.- Con que template engines spring boot hace autoconfiguración
+12.- Para que sirven los starters y cerca de cuantos starters existen? (revisar liga de notion)
+13.- Cómo saber que contiene cada starter?
+13 ? Resolver duda ... Si una de las dependencias usa jackson como conviven?
+14.- Como establecer la versión generica para los starters? Que defaults puede setear al hacer esto
+
+#########################################################################
+						Kata5
+#########################################################################
+1.- Para que sirve spring-boot-devtools? y que consideración hay que tener en cuenta con el IDE?
