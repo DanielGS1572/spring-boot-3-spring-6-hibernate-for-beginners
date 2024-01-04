@@ -1,3 +1,5 @@
+=========================================== Spring boot quick start ===========================================
+
 #########################################################################
 						Kata1
 #########################################################################
@@ -50,4 +52,57 @@ spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\01-spring
 #########################################################################
 						Kata5
 #########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\02-dev-tools-demo
 1.- Para que sirve spring-boot-devtools? y que consideración hay que tener en cuenta con el IDE?
+2.- Identificar devtools en el pom y hacer el ejercicio que haga autoreload
+
+#########################################################################
+						Kata6
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\03-actuator-demo
+1.- Para que sirve actuator (3 caracteristicas)
+2.- Los endpoint que tienen en la url prefixed?
+2.1.- Cual es el endpoint con el que tiene expuesto por default y que se tiene que hacer para exponer /info... Que se debe hacer para que muestre información?
+2.2.- Que endpoint se usa para depurar que bean ha sido creado/usado?
+2.3.- Ver la lista completa de endpoints (de la url de notion) para familizar cuales estan disponibles
+2.4.- Cómo exponer todos los endpoints
+2.5.- Consideración importante al activar los endpoints?
+3.- como saber cuantos endpoints se han levantado
+4.- Como analizar el performance de la app
+5.- como listar los request mappings
+
+#########################################################################
+						Kata7 (dentro de kata6 en notion)
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\04-actuator-security-demo
+1.- Como establecer seguridad en los endpoints
+2.- Como hacer override de las credenciales
+3.- Como deshabilitar el endpoint de health... (No es buena practica deshabilitarlos)
+4.- Hacer el ejercicio de arrancar el proyecto e intentar loggearse para ver /health con exclude en el archivo de propiedades
+
+#########################################################################
+						Kata8 (dentro de kata6 en notion)
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\05-command-line-demo
+=> No es necesario cargar el proyecto pues se ejecutará desde la linea de comandos
+1.- Cuales son las dos opciones para ejecutar la aplicación desde la linea de comandos?
+a) ejecutar mvn package y luego java -jar [target\jarCreado] 
+b) que sucede con el jar cuando se ejecuta spring-boot 
+
+#########################################################################
+						Kata9 (dentro de kata6 en notion)
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\06...
+1.- Cual es la intención de inyectar un properties file?
+a) Levantar el proyecto y hacer que jale las propiedades configuradas
+b) hacer un rest-controller que jale información del properties file
+2.- Revisar la liga
+2.1.- cuales con las categorias que conformas las 1000 diferentes propiedades
+2.2.- Como cambiar el context path
+
+
+=========================================== SPRING CORE ===========================================
+1.- Que es inversion of control
+2.- cuales son los 3 approaches para trabajar con spring 
+3.- Cuales son las principales funciones de Spring Container
+4.- En palabras sencillas que es IoC (con respecto al framework)
