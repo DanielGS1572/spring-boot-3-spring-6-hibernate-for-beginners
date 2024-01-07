@@ -12,7 +12,7 @@ public class DemoController {
 
     // define a constructor for dependency injection
     @Autowired
-    public DemoController(Coach theCoach) {
+    public DemoController(Coach theCoach) {     //[A]
         myCoach = theCoach;
     }
 
