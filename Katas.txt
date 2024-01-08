@@ -182,6 +182,19 @@ spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\06-laz
 2.- Para que sirve Lazy initialization
 3.- Como configurar Lazy initialization de forma global?
 a) Cambiar la bandera a false y ver que cuando arranca muestra todas las implementaciones excepto TrackCoach, ver que tambien se inicializa DemoController a pesar que no esta marcado como Component (bean)
+ => Identificar que primero crea el bean que será inyectado a DemoController (Con lazy initialization)
 b) Cambiar la bander a true y ver que nada más inicializa los beans al entrar a http://localhost:8080/dailyworkout
+4.- Algunas desventajas de usar lazy initialization? Por que evitar desde un inicio?
+
+#########################################################################
+						Kata19
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\07-bean-scopes
+1.- Cuales son los 4 puntos a considerar con “bean scopes”
+2.- Cual es el scope por default? y cuales son sus caracteristicas
+3.- Cómo se configura el scope a un @Component
+a) Cambiar la configuración del @Scope para CricketCoach e ir a http://localhost:8080/check (ver comentario adicional sobre SCOPE_SINGLETON)
+
+
 
 
