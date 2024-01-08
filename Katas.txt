@@ -146,3 +146,39 @@ a) Tener:
 spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\02-component-scanning
 a) Unicamente abrir el proyecto y ver como esta dividido en carpetas (pues basicamente es lo mismo que Kata12, solo cambio la estructura de las carpetas)
 1.- Que hacer si manda error de ConfigurationClassParser?
+
+#########################################################################
+						Kata15
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\03-setter-injection
+1.- Identificar los componentes de un setter injection (Como hacer @Component, @Autowired, etc). Usando de ejemplo Coach, CricketCoach, DemoController
+2.- Cuando usar setter/constructor injection
+3.- Cual es el tipo de injection que no esta recomendado por spring y porque?
+a) Hacer un setter injection basado en el punto 1
+
+#########################################################################
+						Kata16
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\04-qualifiers
+1.- Como se vería un error cuando se quiere hacer Autowired y se tienen varias implementaciones anotadas con Component
+2.- Como hacer para que use un bean en especifico? (y a que tipo de inyección aplica). Restricción importante a considerar en nomenclatura?
+a) Hacer varias implementaciones y hacer que mande mensaje de error
+b) Solucionar lo anterior con @Qualifier
+
+#########################################################################
+						Kata17
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\05-primary
+1.- Que otra alternativa se puede usar en lugar de @Qualifier?
+2.- Que error mandaría cuando se utiliza @Primary con multiples implementaciones
+3.- Cual tiene mayor prioridad entre Qualifier y Primary?
+4.- Cual de los dos es mejor practica?
+
+#########################################################################
+						Kata18
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\06-lazy-initialization
+
+
+
+

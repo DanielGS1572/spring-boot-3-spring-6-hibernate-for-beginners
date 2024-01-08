@@ -8,11 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    // define a private field for the dependency
     private Coach myCoach;
 
-    @Autowired
-    public void setCoach(Coach theCoach) {
+    @Autowired      //setter method
+    public void /*setCoach*/dummyCoach(Coach theCoach) {        //Ver que no es necesario que se llame setAlgo
         myCoach = theCoach;
     }
 
