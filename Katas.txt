@@ -196,5 +196,26 @@ spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\07-bea
 a) Cambiar la configuración del @Scope para CricketCoach e ir a http://localhost:8080/check (ver comentario adicional sobre SCOPE_SINGLETON)
 
 
+#########################################################################
+						Kata20
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\08-bean-lifecycle-methods
+1.- Cual es el ciclo de vida de un bean a grandes rasgos
+2.- De que otra manera se pueden llamar los “Bean LifeCycle Methods” y para que se usan
+3.- Que anotación se usa para configurar la destrucción de beans
+4.- Que anotación se usa para inicializar los beans
+5.- Consideracion a tomar en cuenta con prototype beans y el ciclo de vida de destroy
+a).- Identificar en el proyecto la clase de CricketCoach y las dos anotaciones
+b).- Identificar que doMyStartupStuff esta después del constructor de CricketCoach
+c).- Identificar que cuando se para la ejecución se ejecuta doMyCleanupStuff()
+
+#########################################################################
+						Kata21
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\09-java-config-bean
+1.- Como hacer configuraciones de los beans con java
+2.- Para que usar Bean y no simplemente @Component
+3.- Ver en notion: Real world example
+
 
 
