@@ -231,3 +231,23 @@ b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en 
 5.- Como se vería guardar un objeto de java con JPA
 6.- Como se vería extraer información de la base de datos?
 
+#########################################################################
+						Kata23
+#########################################################################
+=> Revisar duda en notion
+
+#########################################################################
+						Kata24
+#########################################################################
+1.- Cual es el componente principal para crear los queries
+2.- En spring boot cual es la implementación por default de JPA?
+3.- Que Beans Spring boot crea automaticamente (basado en ciertas configuraciones)
+4.- Cuando se inicializa el proyecto en la pagina de spring initializer que hay que agregar como dependencia para que funcione con hibernate
+5.- De donde se lee la conexión a la base de datos
+
+#########################################################################
+						Kata25
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\01-cruddemo-student-create
+1.- Para que sirve el CommandLineRunner de spring boot
+2.- Como crear un command line application de spring boot
