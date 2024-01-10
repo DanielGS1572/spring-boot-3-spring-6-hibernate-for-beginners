@@ -216,6 +216,18 @@ spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\09-jav
 1.- Como hacer configuraciones de los beans con java
 2.- Para que usar Bean y no simplemente @Component
 3.- Ver en notion: Real world example
+=> Ver que @Configuration y @Bean "trabajan" en conjunto
+a).- Ver que SwimCoach es una simple clase de java
+b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en lugar de usar el default (nombre del metodo)
 
-
+=========================================== Hibernate & JPA ===========================================
+#########################################################################
+						Kata22
+#########################################################################
+1.- Que es Hibernate?
+2.- Beneficios de usar hibernate?
+3.- Que es JPA? y su ventaja principal
+4.- Ejemplos de implementaciones de JPA
+5.- Como se vería guardar un objeto de java con JPA
+6.- Como se vería extraer información de la base de datos?
 
