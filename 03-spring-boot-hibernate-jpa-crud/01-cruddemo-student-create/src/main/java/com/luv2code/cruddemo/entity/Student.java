@@ -3,14 +3,17 @@ package com.luv2code.cruddemo.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="student")
+@Table(name="student")          //La tabla ya debe de existir
 public class Student {
-
+    //TODO PASOS: (se requieren tres pasos para generar el entity)
     // define fields
+    // define constructors
+    // define getters/setters
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
-    private int id;
+    private int id;         //ver que el modificador de acceso es private
 
     @Column(name="first_name")
     private String firstName;
@@ -21,18 +24,19 @@ public class Student {
     @Column(name="email")
     private String email;
 
-    // define constructors
+
     public Student() {
 
     }
-
+    //TODO: Ver que id no esta en el constructor pues ya esta cubierto con GeneratedValue
+    //Pero si esta en el setter
     public Student(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
     }
 
-    // define getters/setters
+
 
     public int getId() {
         return id;

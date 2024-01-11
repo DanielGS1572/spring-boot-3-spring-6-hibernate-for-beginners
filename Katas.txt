@@ -251,3 +251,25 @@ b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en 
 spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\01-cruddemo-student-create
 1.- Para que sirve el CommandLineRunner de spring boot
 2.- Como crear un command line application de spring boot
+
+#########################################################################
+						Kata26
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\01-cruddemo-student-create
+1.- Que es un entity class
+2.- Como minimo que debe tener un entity class?
+3.- 2 Pasos para crear un entity class
+4.- Consideraciones importante de @Id
+5.- Como generar los valores del id y que consideración tiene `strategy = GenerationType.*IDENTITY*`
+6.- Cuales son las 4 estretegias para Id Generation Strategies y cual es la que casi siempre se usa
+7.- Cómo se puede generar un Custom generation strategy?
+8.- Como hacer el código más limpio (entity class)
+
+a) Ver el archivo de propiedades para la configuración de la conexión a la base de datos
+b) si no tuviera logging.level.root = warn se podría ver que levanta un connection pool a la base de datos
+c) Ver DAO vs DAOImpl
+d) Tres pasos para generar el entity
+
+
+
+
