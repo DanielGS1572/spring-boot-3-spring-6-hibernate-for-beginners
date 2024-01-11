@@ -23,6 +23,7 @@ public class StudentDAOImpl implements StudentDAO {
 
     @Override
     @Transactional      //Handles Transaction management
+    //TODO (solo aplica para hacer modificaciones a la base de datos, no para leer)
     public void save(Student theStudent) {
         entityManager.persist(theStudent);
     }

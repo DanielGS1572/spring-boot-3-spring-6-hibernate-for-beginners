@@ -279,5 +279,15 @@ spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud
 2.- Que se requiere en la implementación del DAO
 3.- Para que sirve @Transactional
 4.- Que anotación se usa para los DAOs
+a) Cuando se usa @Transactional (Respuesta: StudentDAOImpl)
+
+#########################################################################
+						Kata28
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\02-cruddemo-student-read
+1.- Cómo cambiar que el AUTO_INCREMENT de la base de datos no empiece en 1
+2.- Como obtener datos de la base de datos
+a) retornar el objeto que se inserto en base de datos
+
 
 

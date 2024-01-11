@@ -34,6 +34,7 @@ public class StudentDAOImpl implements StudentDAO {
     }
 
     @Override
+    //TODO Ver que no lleva @Transactional pues no se esta modificando la base de datos
     public List<Student> findAll() {
         // create query
         TypedQuery<Student> theQuery = entityManager.createQuery("FROM Student", Student.class);
