@@ -15,7 +15,7 @@ public class CruddemoApplication {
 	}
 
 	@Bean
-	public CommandLineRunner commandLineRunner(StudentDAO studentDAO) {		//Usado para crear un command line application
+	public CommandLineRunner commandLineRunner(StudentDAO studentDAO /*Como solo tiene una implementación se le pasa la interfaz*/) {		//Usado para crear un command line application
 
 		return runner -> {
 			createStudent(studentDAO);

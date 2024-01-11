@@ -271,5 +271,13 @@ c) Ver DAO vs DAOImpl
 d) Tres pasos para generar el entity
 
 
+#########################################################################
+						Kata27
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\01-cruddemo-student-create (igual que kata26)
+1.- De que es responsable un DAO y que es?
+2.- Que se requiere en la implementación del DAO
+3.- Para que sirve @Transactional
+4.- Que anotación se usa para los DAOs
 
 

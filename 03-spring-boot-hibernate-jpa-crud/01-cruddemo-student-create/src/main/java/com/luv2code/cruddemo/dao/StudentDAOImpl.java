@@ -8,19 +8,21 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Repository
 public class StudentDAOImpl implements StudentDAO {
-
+    //TODO 3 pasos principalmente:
     // define field for entity manager
-    private EntityManager entityManager;
-
     // inject entity manager using constructor injection
+    // implement save method
+
+
+    private EntityManager entityManager;        //ver que en la implementación se define el entityManager
+
     @Autowired
     public StudentDAOImpl(EntityManager entityManager) {
         this.entityManager = entityManager;
     }
 
-    // implement save method
     @Override
-    @Transactional
+    @Transactional      //Handles Transaction management
     public void save(Student theStudent) {
         entityManager.persist(theStudent);
     }
