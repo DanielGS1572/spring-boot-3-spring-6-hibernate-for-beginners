@@ -252,6 +252,11 @@ spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud
 1.- Para que sirve el CommandLineRunner de spring boot
 2.- Como crear un command line application de spring boot
 
+
+================================================================================================================================
+					CRUD (INICIO)
+================================================================================================================================
+
 #########################################################################
 						Kata26
 #########################################################################
@@ -289,5 +294,51 @@ spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud
 2.- Como obtener datos de la base de datos
 a) retornar el objeto que se inserto en base de datos
 
+#########################################################################
+						Kata29
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\03-cruddemo-student-query-findAll
+1.- Que es JPQL
+2.- Como se vería usar JPQL
+3.- Como es la sintaxis para el uso de Named Parameters
+4.- En JPQL que sección es la que se elimina de un query tradicional
+a) ver como en StudentDAOImpl se hace un order by
+
+#########################################################################
+						Kata30
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\04-cruddemo-student-query-findByLastName
+a) Ver como se hace un filtro con el query en StudentDAOImpl (named parameters)
+
+#########################################################################
+						Kata31
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\05-cruddemo-student-update
+a) Ver que se esta usando @Transactional en StudentDAOImpl
+1.- Como se haría update de un objeto en la base de datos?
+
+#########################################################################
+						Kata32
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\06-cruddemo-student-delete-single-student
+1.- Como eliminar un objeto de la base de datos?
+a) Lo que interesa es el metodo de delete en la Impl (no ejecutar pues estaría eliminando para subsecuentes corridas)
+
+#########################################################################
+						Kata33
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\07-cruddemo-student-query-delete-all-students
+a) deleteAll de StudentDAOImpl
+
+#########################################################################
+						Kata34
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\08-cruddemo-create-db-tables-automatically
+a) Ejecutar y ver los logs (ddl-auto=create)
 
 
+REVISAR CONTRA NOTION
+
+================================================================================================================================
+					CRUD (FIN)
+================================================================================================================================

@@ -23,7 +23,7 @@ public class CruddemoApplication {
 		return runner -> {
 			// createStudent(studentDAO);
 
-			createMultipleStudents(studentDAO);
+			createMultipleStudents(studentDAO);		//Este es el que interesa para ver lo que escupe en los logs
 
 			// readStudent(studentDAO);
 

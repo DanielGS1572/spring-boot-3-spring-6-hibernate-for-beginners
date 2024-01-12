@@ -21,26 +21,6 @@ public class StudentDAOImpl implements StudentDAO {
         this.entityManager = entityManager;
     }
 
-    // implement save method
-    @Override
-    @Transactional
-    public void save(Student theStudent) {
-        entityManager.persist(theStudent);
-    }
-
-    @Override
-    public Student findById(Integer id) {
-        return entityManager.find(Student.class, id);
-    }
-
-    @Override
-    public List<Student> findAll() {
-        // create query
-        TypedQuery<Student> theQuery = entityManager.createQuery("FROM Student", Student.class);
-
-        // return query results
-        return theQuery.getResultList();
-    }
 
     @Override
     public List<Student> findByLastName(String theLastName) {
