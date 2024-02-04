@@ -386,6 +386,10 @@ a) Crear un endpoint que regrese a un solo estudiante /api/students/{studentsId}
 #########################################################################
 C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\05-spring-boot-rest-crud-students-exception-handling\pom.xml
 1.- Idealmente como responder ante una excepción que no encuentra un elemento de una lista o que arroja una excepción
+3.- Que es lo que regresa el  @ExceptionHandler? que hace? y que contiene?
 2.- Pasos para lograr arrojar un mensaje de error correctamente
+4.- Como generar la clase para el manejo de la excepción?
 a) Regresar una lista de estudiantes y cuando tire una excepción por Index que mande el mensaje correcto
 b) Cual es el approach mas comun para crear excepciones (StudentNotFoundException)
+c) Consideraciones al trabajar con la anotación @ExceptionHandler
+d) Resolver duda todo de StudentRestController

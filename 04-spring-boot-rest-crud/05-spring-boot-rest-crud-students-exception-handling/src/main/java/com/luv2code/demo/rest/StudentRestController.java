@@ -29,7 +29,6 @@ public class StudentRestController {
     }
 
 
-    // define endpoint for "/students" - return a list of students
 
     @GetMapping("/students")
     public List<Student> getStudents() {
@@ -37,14 +36,9 @@ public class StudentRestController {
         return theStudents;
     }
 
-    // define endpoint or "/students/{studentId}" - return student at index
-
     @GetMapping("/students/{studentId}")
     public Student getStudent(@PathVariable int studentId) {
 
-        // just index into the list ... keep it simple for now
-
-        // check the studentId again list size
 
         if ( (studentId >= theStudents.size()) || (studentId < 0)) {
             throw new StudentNotFoundException("Student id not found - " + studentId);
@@ -53,8 +47,9 @@ public class StudentRestController {
         return theStudents.get(studentId);
     }
 
-    // Add an exception handler using @ExceptionHandler
-
+    // Consideraciones al trabajar con la anotación @ExceptionHandler
+    //Ver que regresa ResponseEntity<StudentErrorResponse>, el cual es el mensaje que se definió de cómo regresaría
+    // Lo que recibe como parametro es el tipo de excepción que manejará (StudentNotFoundException)
     @ExceptionHandler
     public ResponseEntity<StudentErrorResponse> handleException(StudentNotFoundException exc) {
 
@@ -67,8 +62,8 @@ public class StudentRestController {
         error.setTimeStamp(System.currentTimeMillis());
 
         // return ResponseEntity
-
-        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+        //todo se podría hacer un return new ResponseEntity sin el operador diamante?
+        return new ResponseEntity<>(error /*body*/, HttpStatus.NOT_FOUND /*status code*/);
     }
 
     // add another exception handler ... to catch any exception (catch all)
