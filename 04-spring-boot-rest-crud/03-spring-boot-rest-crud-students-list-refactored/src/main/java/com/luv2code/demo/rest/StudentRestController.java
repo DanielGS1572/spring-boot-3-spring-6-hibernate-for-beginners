@@ -15,11 +15,13 @@ public class StudentRestController {
 
     private List<Student> theStudents;
 
-    // define @PostConstruct to load the student data ... only once!
+    // define @PostConstruct to load the student data ... only once! once the given bean is constructed
 
-    @PostConstruct
+    @PostConstruct      //only loads the students data once!
     public void loadData() {
-
+        //La siguiente linea, así es como estaba en el proyecto anterior (Kata36)
+        //lo cual esta mal, pues se estaba creando una nueva instancia cada que se llamaba el endpoint
+        //List<Student> theStudents = new ArrayList<>();
         theStudents = new ArrayList<>();
 
         theStudents.add(new Student("Poornima", "Patel"));
@@ -29,11 +31,10 @@ public class StudentRestController {
 
 
     // define endpoint for "/students" - return a list of students
-
     @GetMapping("/students")
     public List<Student> getStudents() {
 
-        return theStudents;
+        return theStudents;     //solo regresar la lista gracias a la anotación @PostConstruct
     }
 
 }

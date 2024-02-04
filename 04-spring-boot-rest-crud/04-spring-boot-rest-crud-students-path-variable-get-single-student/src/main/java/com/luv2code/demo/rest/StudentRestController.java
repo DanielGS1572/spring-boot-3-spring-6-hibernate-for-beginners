@@ -16,8 +16,6 @@ public class StudentRestController {
 
     private List<Student> theStudents;
 
-    // define @PostConstruct to load the student data ... only once!
-
     @PostConstruct
     public void loadData() {
 
@@ -29,7 +27,7 @@ public class StudentRestController {
     }
 
 
-    // define endpoint for "/students" - return a list of students
+
 
     @GetMapping("/students")
     public List<Student> getStudents() {
@@ -37,9 +35,8 @@ public class StudentRestController {
         return theStudents;
     }
 
-    // define endpoint or "/students/{studentId}" - return student at index
 
-    @GetMapping("/students/{studentId}")
+    @GetMapping("/students/{studentId}")    //Se hace uso de PathVariable para que en el endpoin se pueda pasar un id (las variables deben de coincidir)
     public Student getStudent(@PathVariable int studentId) {
 
         // just index into the list ... keep it simple for now

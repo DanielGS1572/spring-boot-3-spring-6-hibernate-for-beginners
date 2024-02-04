@@ -1,3 +1,6 @@
+REVISAR CONTRA NOTION
+https://www.notion.so/Spring-Boot-Chad-50379c55775444d8917784f870e334f5
+
 =========================================== Spring boot quick start ===========================================
 
 #########################################################################
@@ -253,9 +256,8 @@ spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud
 2.- Como crear un command line application de spring boot
 
 
-================================================================================================================================
-					CRUD (INICIO)
-================================================================================================================================
+=========================================== JPA/CRUD  =====================================================================================
+
 
 #########################################################################
 						Kata26
@@ -337,8 +339,53 @@ spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud
 a) Ejecutar y ver los logs (ddl-auto=create)
 
 
-REVISAR CONTRA NOTION
+=========================================== REST CRUD API ================================
 
-================================================================================================================================
-					CRUD (FIN)
-================================================================================================================================
+#########################################################################
+						Kata35
+#########################################################################
+spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\01-spring-boot-rest-crud-hello-world\
+
+1.- Cuales son las diferentes formas que se llaman los servicios
+2.- Sobre que protocolo se usa rest y cuales son las operaciones más comunes
+3.- Como esta conformado un HTTP Request Message y response message? status codes form the response?
+4.- Que es MIME type? Cual es su sintaxis
+5.- Como inicializar en maven para crear un rest service
+a) Crear un rest service que al consumir /test/hello regrese "Hello world!"
+
+#########################################################################
+						Kata36
+#########################################################################
+C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\02-spring-boot-rest-crud-students-list-base\
+[solo tomar en cuenta entity.Student y rest.StudentRestController
+1.- Que usa por detras spring para ser/deserializar. Cuando se usan getters/setters
+2.- Como se le llama a lo que consume un rest service
+3.- Como sería la dinamica entre Spring y jackson
+4.- Serialización vs Deserialización
+a)Crear un servicio que regresa una lista de estudiantes (datos hardcodeados dentro de la lista)
+
+
+
+#########################################################################
+						Kata37
+#########################################################################
+C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\03-spring-boot-rest-crud-students-list-refactored
+a) Del proyecto anterior (kata36) que es lo que estaba mal hecho y como se corrigió
+b)  Como mandar llamar un metodo el cual será llamado una sola vez
+
+
+#########################################################################
+						Kata38
+#########################################################################
+C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\04-spring-boot-rest-crud-students-path-variable-get-single-student
+1.- Que es una path variable
+a) Crear un endpoint que regrese a un solo estudiante /api/students/{studentsId}
+
+#########################################################################
+						Kata39
+#########################################################################
+C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\05-spring-boot-rest-crud-students-exception-handling\pom.xml
+1.- Idealmente como responder ante una excepción que no encuentra un elemento de una lista o que arroja una excepción
+2.- Pasos para lograr arrojar un mensaje de error correctamente
+a) Regresar una lista de estudiantes y cuando tire una excepción por Index que mande el mensaje correcto
+b) Cual es el approach mas comun para crear excepciones (StudentNotFoundException)
