@@ -14,6 +14,8 @@ public class EmployeeDAOJpaImpl implements EmployeeDAO {
     // define field for entitymanager
     private EntityManager entityManager;
 
+//de un comentario "Why we have not simply used JpaRepository or CRUD Repository here instead of using Entitymanager"
+//es decir que se pueden usar otras alternativas aparte de EntityManager
 
     // set up constructor injection
     @Autowired
@@ -23,9 +25,9 @@ public class EmployeeDAOJpaImpl implements EmployeeDAO {
 
 
     @Override
-    public List<Employee> findAll() {
+    public List<Employee> findAll() {       //"USING STANDARD JPA API" => A que se refiere?
 
-        // create a query
+        // create a query (JPQL)
         TypedQuery<Employee> theQuery = entityManager.createQuery("from Employee", Employee.class);
 
         // execute query and get result list

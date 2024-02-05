@@ -67,14 +67,15 @@ public class StudentRestController {
     }
 
     // add another exception handler ... to catch any exception (catch all)
-
+    //aca para manejar lo que sea distinto a numero, como texto por ejemplo (Edge Cases)
+    // ver que en lugar que sea StudentNotFoundException se tiene Exception para que abarque todos los demas casos
     @ExceptionHandler
     public ResponseEntity<StudentErrorResponse> handleException(Exception exc) {
 
         // create a StudentErrorResponse
         StudentErrorResponse error = new StudentErrorResponse();
 
-        error.setStatus(HttpStatus.BAD_REQUEST.value());
+        error.setStatus(HttpStatus.BAD_REQUEST.value());        //se cambió de NOT_FOUN a Bad_request
         error.setMessage(exc.getMessage());
         error.setTimeStamp(System.currentTimeMillis());
 

@@ -384,7 +384,7 @@ a) Crear un endpoint que regrese a un solo estudiante /api/students/{studentsId}
 #########################################################################
 						Kata39
 #########################################################################
-C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\05-spring-boot-rest-crud-students-exception-handling\pom.xml
+C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\05-spring-boot-rest-crud-students-exception-handling
 1.- Idealmente como responder ante una excepción que no encuentra un elemento de una lista o que arroja una excepción
 3.- Que es lo que regresa el  @ExceptionHandler? que hace? y que contiene?
 2.- Pasos para lograr arrojar un mensaje de error correctamente
@@ -393,3 +393,32 @@ a) Regresar una lista de estudiantes y cuando tire una excepción por Index que 
 b) Cual es el approach mas comun para crear excepciones (StudentNotFoundException)
 c) Consideraciones al trabajar con la anotación @ExceptionHandler
 d) Resolver duda todo de StudentRestController
+e) Como abarcar los Edge Cases para manejar la excepción
+
+#########################################################################
+						Kata40
+#########################################################################
+C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\06-spring-boot-rest-crud-students-global-exception-handling\
+1.- De que manera interceptar y Pre/post procesar el manejo de excepciones para que no haya codigo repetido. Que anotación y que usa por detras
+2.- Que beneficio trae hacer lo anterior
+a) Como hacer refactor del proyecto anterior para que se configure el manejo de la excepción de forma global
+
+#########################################################################
+						Kata41
+#########################################################################
+C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\20-spring-boot-rest-crud-employee-list-employees\pom.xml
+1.- 3 pasos para diseñar una API
+2.- Ejemplo de antipatterns dentro de rest
+3- Ejemplo de endpoint para manipular los datos de employee (5 casos)
+4- Como sería la arquitectura de un endpoint
+5- Que dependencias poner en spring initializr al construir el proyecto para hacer un rest api
+6- Cual es el development process para  crear una rest api
+a) Resolver duda "USING STANDARD JPA API" => A que se refiere?
+b) Aparte de EntityManager que otras formas se puede hacer la implementación del DAO
+c) Resolver duda de Employee (constructor)
+Crear rest api
+- Get a list of employees
+- Get single employee by id
+- Add a new employee
+- Update an employee
+- Delete an employee

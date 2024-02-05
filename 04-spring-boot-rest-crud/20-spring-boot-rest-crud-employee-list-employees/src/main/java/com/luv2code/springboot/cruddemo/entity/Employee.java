@@ -21,7 +21,7 @@ public class Employee {
     @Column(name="email")
     private String email;
 
-
+    // todo se puede quitar este constructor vacio? ó spring lo necesita
     // define constructors
     public Employee() {
 

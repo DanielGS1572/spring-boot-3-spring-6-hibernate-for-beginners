@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 @ControllerAdvice
 public class StudentRestExceptionHandler {
-
+//Se creó esta clase y se pusieron los @ExceptionHandler (cut paste de StudentRestController)
+//Ver que esta clase no esta asociada a StudentRestController, ni StudentRestController apunta a esta clase
+//Simplemente con la anotación ControllerAdvice la cacha
     // add exception handling code here
 
     @ExceptionHandler
