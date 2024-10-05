@@ -15,7 +15,9 @@ https://www.notion.so/Spring-Boot-Chad-50379c55775444d8917784f870e334f5
 #########################################################################
 						Kata2
 #########################################################################
-spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\01-spring-boot-demo
+Kata: copiar y pegar \spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\Templates\01TemplateForKatas-Overview
+Eliminar al terminar
+Fuente:spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\01-spring-boot-demo
 1.- Como se hace bootstrap de la aplicación de Spring, que anotación ocupa y como se ejecuta
 2.- Crear un rest controller que simplemente diga "hello world"
 3.- Como cambiar el puerto de la aplicación
