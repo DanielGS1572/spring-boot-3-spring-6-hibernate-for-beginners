@@ -1,3 +1,7 @@
 logging:
   level:
     com.codigomorsa.tutorial: DEBUG
+
+server:
+  error:
+    include-message: always

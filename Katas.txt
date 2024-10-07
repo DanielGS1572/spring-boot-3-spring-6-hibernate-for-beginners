@@ -27,6 +27,7 @@ Fuente:spring-boot-3-spring-6-hibernate-for-beginners\01-spring-boot-overview\01
 						Kata3
 #########################################################################
 1.- Cuales son las principales caracteristicas de Spring
+1A.- Mencionar 5 Layers de spring
 2.- Para que sirve un core container y que elemenots contiene un core container
 3.- Que es AOP, que hace y como esta conformado
 4.- Para que sirve el data access layer? y de que componentes esta conformado
