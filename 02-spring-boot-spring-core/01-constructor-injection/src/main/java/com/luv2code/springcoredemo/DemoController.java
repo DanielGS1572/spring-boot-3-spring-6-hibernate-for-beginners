@@ -11,7 +11,7 @@ public class DemoController {
     private Coach myCoach;
 
     // define a constructor for dependency injection
-    @Autowired
+    @Autowired  //le dice a Spring que inyecte la dependencia... SI SOLO SE TIENE UN SOLO CONSTRUCTOR EL @Autowired es opcional
     public DemoController(Coach theCoach) {     //[A]
         myCoach = theCoach;
     }
