@@ -18,8 +18,20 @@ public class DemoController {
         myCoach = theCoach;
     }
 
+//Si se hace set, aún así lo cargará (se hara el print de track coach)
+/*
+    @Autowired
+    public void setTrackCoach(@Qualifier("trackCoach") Coach theCoach){
+        myCoach = theCoach;
+    }
+*/
     @GetMapping("/dailyworkout")
     public String getDailyWorkout() {
+        return myCoach.getDailyWorkout();
+    }
+
+    @GetMapping("/trackcoach")
+    public String getCoachWorkout() {
         return myCoach.getDailyWorkout();
     }
 }

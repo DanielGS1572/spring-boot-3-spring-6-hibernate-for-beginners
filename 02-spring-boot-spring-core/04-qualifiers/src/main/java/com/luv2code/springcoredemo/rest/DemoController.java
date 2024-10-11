@@ -11,7 +11,8 @@ public class DemoController {
 
 
     private Coach myCoach;
-
+    //el bean id es el nombre de la clase pero con la primer letra en minusculas
+    //para el setter es lo mismo, con la misma anotación y estructura
     @Autowired
     public DemoController(@Qualifier("cricketCoach") Coach theCoach) {
         myCoach = theCoach;
