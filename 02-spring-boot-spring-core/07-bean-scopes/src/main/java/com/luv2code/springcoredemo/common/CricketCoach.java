@@ -5,8 +5,8 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-//@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-@Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)         //Esta linea esta de más porque es el default
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+//@Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)         //Esta linea esta de más porque es el default
 public class CricketCoach implements Coach {
 
     public CricketCoach() {

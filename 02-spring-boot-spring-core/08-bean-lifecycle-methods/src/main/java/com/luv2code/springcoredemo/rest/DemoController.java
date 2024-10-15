@@ -23,6 +23,10 @@ public class DemoController {
     public String getDailyWorkout() {
         return myCoach.getDailyWorkout();
     }
+    @GetMapping("/exit")
+    public void exit() {
+        System.exit(0);
+    }
 
 }
 
