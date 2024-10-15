@@ -242,6 +242,7 @@ spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\07-bea
 2.- Cual es el scope por default? y cuales son sus caracteristicas
 3.- Cómo se configura el scope a un @Component
 a) Cambiar la configuración del @Scope para CricketCoach e ir a http://localhost:8080/check (ver comentario adicional sobre SCOPE_SINGLETON)
+4.- Hacer un endpoint que valide si es prototype o singleton
 
 
 #########################################################################
@@ -253,8 +254,12 @@ spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\08-bea
 3.- Que anotación se usa para configurar la destrucción de beans
 4.- Que anotación se usa para inicializar los beans
 5.- Consideracion a tomar en cuenta con prototype beans y el ciclo de vida de destroy
+Hacer uso de las anotaciones de PostConstruct y PreDestroy. Poner us sout en cada una y en el constructor (identificar que se imprime primero)
+
+
+
 a).- Identificar en el proyecto la clase de CricketCoach y las dos anotaciones
-b).- Identificar que doMyStartupStuff esta después del constructor de CricketCoach
+b).- Identificar que el sout de doMyStartupStuff esta después del constructor de CricketCoach 
 c).- Identificar que cuando se para la ejecución se ejecuta doMyCleanupStuff()
 
 #########################################################################
@@ -265,6 +270,19 @@ spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\09-jav
 2.- Para que usar Bean y no simplemente @Component
 3.- Ver en notion: Real world example
 => Ver que @Configuration y @Bean "trabajan" en conjunto
+
+Codigo:
+Duplicar=> 07TemplatesForKatas-bean
+- Tener 2 carpetas
+1.- Commons donde esta la interfaz y la implementación
+2.- Config donde se tiene la clase con @Bean
+3.- Como tener un Bean id personalizado? (hacer el ejercicio con y sin bean id)
+
+
+Ignorar lo siguiente hasta terminar
+
+
+
 a).- Ver que SwimCoach es una simple clase de java
 b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en lugar de usar el default (nombre del metodo)
 
