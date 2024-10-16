@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class SportConfig {
 
     @Bean("aquatic")        //Custom Bean
-    public Coach swimCoach() {
+    public Coach swimCoach() {      //Ver que SwimCoach no esta anotado con Component
         return new SwimCoach();
     }
 }

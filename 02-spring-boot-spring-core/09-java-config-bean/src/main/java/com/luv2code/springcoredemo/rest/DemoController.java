@@ -12,11 +12,20 @@ public class DemoController {
     // define a private field for the dependency
     private Coach myCoach;
 
-    @Autowired
+    //@Autowired                    //puede no llevar autowired y el qualifier si es obligatorio ya que existen diferentes implementaciones the Coach
     public DemoController(@Qualifier("aquatic") Coach theCoach) {
         System.out.println("In constructor: " + getClass().getSimpleName());
         myCoach = theCoach;
     }
+
+    //Recordar que si es un seter si lleva @Autowired a fuerzas SI SE TIENEN DIFERENTES IMPLEMENTACIONES DE Coach
+    /*
+    @Autowired
+    public void setDemoController(@Qualifier("aquatic") Coach theCoach) {
+        System.out.println("In constructor: " + getClass().getSimpleName());
+        myCoach = theCoach;
+    }
+    */
 
     @GetMapping("/dailyworkout")
     public String getDailyWorkout() {
