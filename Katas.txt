@@ -285,6 +285,7 @@ Duplicar=> 07TemplatesForKatas-bean
 2.- Config donde se tiene la clase con @Bean
 3.- Como tener un Bean id personalizado? (hacer el ejercicio con y sin bean id)
 => Recordar regla de como funciona sin/con autowired en un setter
+=> Que pasa si la inyección de dependencia se pone la clase y no la interfaz al trabajar con @Bean
 
 
 Ignorar lo siguiente hasta terminar el ejercicio de Codigo
