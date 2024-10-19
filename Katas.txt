@@ -401,6 +401,8 @@ spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud
 4.- En JPQL que sección es la que se elimina de un query tradicional
 a) ver como en StudentDAOImpl se hace un order by
 
+Codigo:. hacer la implementación de findAll y luego que lo obtenga ordenado de forma descendente por lastName
+
 #########################################################################
 						Kata30
 #########################################################################
@@ -411,14 +413,20 @@ a) Ver como se hace un filtro con el query en StudentDAOImpl (named parameters)
 						Kata31
 #########################################################################
 spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\05-cruddemo-student-update
-a) Ver que se esta usando @Transactional en StudentDAOImpl
+Código (ver kata31 para el caso de JPQL)
 1.- Como se haría update de un objeto en la base de datos?
+Hacerlo con: 
+- JPQL (Revisar DUDA)
+- con merge
 
 #########################################################################
 						Kata32
 #########################################################################
+A pessar que se supone que es el 06, no se muestra como se hizo con JPQL, hacerlo de cero en la kata y revisar en notion Kata32
 spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\06-cruddemo-student-delete-single-student
-1.- Como eliminar un objeto de la base de datos?
+Código:
+1.- Como eliminar un objeto de la base de datos? (usando JPQL)
+2.- Porque a pesar que se eliminará información tiene la palabra update
 a) Lo que interesa es el metodo de delete en la Impl (no ejecutar pues estaría eliminando para subsecuentes corridas)
 
 #########################################################################

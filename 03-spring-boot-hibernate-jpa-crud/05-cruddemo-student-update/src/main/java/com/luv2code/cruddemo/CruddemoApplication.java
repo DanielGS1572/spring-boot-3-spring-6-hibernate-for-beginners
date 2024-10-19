@@ -27,11 +27,11 @@ public class CruddemoApplication {
 	private void updateStudent(StudentDAO studentDAO) {
 
 		// retrieve student based on the id: primary key
-		int studentId = 1;
+		int studentId = 7;
 		System.out.println("Getting student with id: " + studentId);
 		Student myStudent = studentDAO.findById(studentId);
 
-		// change first name to "John"
+		// change first name
 		System.out.println("Updating student ...");
 		myStudent.setFirstName("John");
 
