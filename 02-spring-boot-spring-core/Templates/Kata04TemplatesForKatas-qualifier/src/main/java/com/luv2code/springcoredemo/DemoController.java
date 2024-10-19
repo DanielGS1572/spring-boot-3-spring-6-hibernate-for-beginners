@@ -7,18 +7,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@Lazy
 public class DemoController {
     Coach coach;
-    Coach tenisCoach;
     @Autowired
-    public DemoController(@Qualifier("cricketCoach") Coach coach, @Qualifier("tenisCoach") Coach tenisCoach ){
+    public DemoController(@Qualifier("coachExample") Coach coach ){
         System.out.println("DEMO CONTROLLER");
         this.coach = coach;
-        this.tenisCoach = tenisCoach;
     }
     @GetMapping("/getwork")
     public String mapping(){
-        return this.coach.getWork() + " - " + this.tenisCoach.getWork();
+        return this.coach.getWork();
+    }
+    @GetMapping("/destroy")
+    public void destroy(){
+        System.exit(0);
     }
 }

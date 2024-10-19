@@ -14,10 +14,11 @@ public class CruddemoApplication {
 		SpringApplication.run(CruddemoApplication.class, args);
 	}
 
+	//Ver que se tiene que inyectar el DAO
 	@Bean
 	public CommandLineRunner commandLineRunner(StudentDAO studentDAO /*Como solo tiene una implementación se le pasa la interfaz*/) {		//Usado para crear un command line application
 		// esta lambda es la implementación de la interfaz runner
-		return runner -> {
+		return runner -> {			//TODO video 73
 			createStudent(studentDAO);
 
 			createMultipleStudents(studentDAO);
@@ -51,7 +52,7 @@ public class CruddemoApplication {
 		studentDAO.save(tempStudent);
 
 		// display id of the saved student
-		System.out.println("Saved student. Generated id: " + tempStudent.getId());
+		System.out.println("Saved student. Generated id: " + tempStudent.getId());  //ver que se generó un id
 	}
 }
 

@@ -5,8 +5,6 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
-@Lazy
 public class TenisCoach implements Coach {
 
     public TenisCoach(){
