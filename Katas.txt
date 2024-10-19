@@ -304,7 +304,8 @@ b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en 
 3.- Que es JPA? y su ventaja principal
 4.- Ejemplos de implementaciones de JPA
 5.- Como se vería guardar un objeto de java con JPA
-6.- Como se vería extraer información de la base de datos?
+6.- Como se vería extraer información de la base de datos? por id y con JPAQL
+7.- Que se tiene que configurar para trabajar con JPA (+Hibernate)
 
 #########################################################################
 						Kata23
@@ -314,6 +315,8 @@ b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en 
 #########################################################################
 						Kata24
 #########################################################################
+A.- Cuales son los dos componentes para trabajar con mysql
+B.- cual es el schema name dentro de workbench, donde esta posicionado en la vista de Schema
 1.- Cual es el componente principal para crear los queries
 2.- En spring boot cual es la implementación por default de JPA?
 3.- Que Beans Spring boot crea automaticamente (basado en ciertas configuraciones)
@@ -326,6 +329,10 @@ b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en 
 spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\01-cruddemo-student-create
 1.- Para que sirve el CommandLineRunner de spring boot
 2.- Como crear un command line application de spring boot
+2.1.- Configurar properties file
+2.2.- Validar conexión exitosa
+2.3.- Poner mal usuario/contraseña
+3.- Como apagar el banner de spring boot de consola
 
 
 =========================================== JPA/CRUD  =====================================================================================
