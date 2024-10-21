@@ -327,13 +327,17 @@ B.- cual es el schema name dentro de workbench, donde esta posicionado en la vis
 						Kata25
 #########################################################################
 spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\01-cruddemo-student-create
+Codigo para la kata
+spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\Templates\01TemplateConnectionConfiguration
+
 1.- Para que sirve el CommandLineRunner de spring boot
 2.- Como crear un command line application de spring boot
-2.1.- Configurar properties file
+2.1.- Configurar properties file para conexion con base de datos
 2.2.- Validar conexión exitosa
 2.3.- Poner mal usuario/contraseña
 3.- Como apagar el banner de spring boot de consola
 4.- Como poner el nivel de logs en warning y que es lo más conveniente para un ambiente productivo?
+5.- Que pasa si no se agregan las dos dependencias en maven y cuales serían esas dependencias
 
 
 =========================================== JPA/CRUD  =====================================================================================
@@ -350,7 +354,7 @@ a.- Como se refiere a hibernate dentro de spring boot
 Como se llamaría el nombre de la tabla si no se usa la anotacion Table
 porque a pesar que no es necesario usar anotaciones, siempre es recomendable para Table y Column
 4.- Consideraciones importante de @Id
-5.- Como generar los valores del id y que consideración tiene `strategy = GenerationType.*IDENTITY*`
+5.- Como generar los valores del id y que consideración tiene strategy = GenerationType.IDENTITY
 6.- Cuales son las 5 estretegias para Id Generation Strategies y cual es la que casi siempre se usa
 7.- Cómo se puede generar un Custom generation strategy?
 8.- Como hacer el código más limpio (entity class)
@@ -439,6 +443,16 @@ a) deleteAll de StudentDAOImpl
 						Kata34
 #########################################################################
 spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\08-cruddemo-create-db-tables-automatically
+1.- Al iniciar se crearon las tablas directamente ejecutando un script de SQL directamente en  ... Cual sería otra alternativa
+2.- Como hacer que hibernate cree las tablas automaticamente y como es su comportamiento
+3.- Cuales son las 7 configuraciones de application.properties para ddl-auto
+4.- Que riesgo se corre al configurar ddl-auto ?
+5.- Como mitigar los riesgos de la base de datos
+6.- Cual es el caso de uso de create?
+7.- Como hacer para que imprima los queries en consola para depurar (2 configuraciones y que hace cada una)
+8.- Cual sería uno de los mensajes en consola cuando se configura ddl-auto=create
+9.- Hacer un drop table sin la configuración de create y ver que truene, poner la configuración y ver que crea la tabla de Student [video 87-88] 
+10.- En lulgar de hacer un create que sea update
 a) Ejecutar y ver los logs (ddl-auto=create)
 
 
@@ -449,10 +463,10 @@ a) Ejecutar y ver los logs (ddl-auto=create)
 #########################################################################
 spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\01-spring-boot-rest-crud-hello-world\
 
-1.- Cuales son las diferentes formas que se llaman los servicios
+1.- Cuales son las diferentes formas que se llaman los servicios. Dependencia de REST con lenguajes y porque se dice que es language independent? formato de datos?
 2.- Sobre que protocolo se usa rest y cuales son las operaciones más comunes
 3.- Como esta conformado un HTTP Request Message y response message? status codes form the response?
-4.- Que es MIME type? Cual es su sintaxis
+4.- Que es MIME type? Cual es su sintaxis y cuales se usan para servicios rest
 5.- Como inicializar en maven para crear un rest service
 a) Crear un rest service que al consumir /test/hello regrese "Hello world!"
 
