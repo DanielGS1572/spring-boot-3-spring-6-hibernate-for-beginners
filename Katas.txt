@@ -254,7 +254,7 @@ a) Cambiar la configuración del @Scope para CricketCoach e ir a http://localhos
 spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\08-bean-lifecycle-methods
 1.- Cual es el ciclo de vida de un bean a grandes rasgos (5 pasos aprox)
 2.- De que otra manera se pueden llamar los “Bean LifeCycle Methods” y para que se usan
-3.- Que anotación se usa para configurar la destrucción de beans
+3.- Que anotación se usa para configurar un metodo antes de la destrucción de beans
 4.- Que anotación se usa para cuando se inicializan los beans
 5.- Consideracion a tomar en cuenta con prototype beans y el ciclo de vida de destroy
 Hacer uso de las anotaciones de PostConstruct y PreDestroy. Poner us sout en cada una y en el constructor (identificar que se imprime primero). [Tener un solo bean, un controller y una clase main]
@@ -269,7 +269,7 @@ c).- Identificar que cuando se para la ejecución se ejecuta doMyCleanupStuff()
 						Kata21
 #########################################################################
 spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\09-java-config-bean
-1.- Como hacer configuraciones de los beans con java
+1.- Como hacer configuraciones manuales de los beans con java
 1A.- Que nombre tomaría el bean?
 2.- Para que usar Bean y no simplemente @Component
 3.- Ver en notion: Real world example
@@ -376,6 +376,11 @@ spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud
 4.- Que anotación se usa para los DAOs
 5.- Como ver la configuración de un esquema y que significa PK, NN, AI
 6.- Cómo cambiar que el AUTO_INCREMENT de la base de datos no empiece en 1 
+
+
+Código:
+02TemplateDAOConnection
+
 [Pendiente] Definir Kata para 01-cruddemo-student-create de todas las clases y configuraciones (detallar la clase student con sus diferentes propiedades)... dentro del runner que inserte un objet y multiples elementos, ver que funciona el auto incremento, eliminar todo, hacer que empiece por el id 3000 y hacer reset a 1 y volver a correr
 
 
@@ -387,30 +392,38 @@ spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud
 
 1.- Como obtener datos de la base de datos a partir de su id
 1.- Que pasa si el valor no existe
-a) retornar el objeto que se inserto en base de datos
-[Pendiente] Definir kata para hacer un read
-create  a student object
-save the student
-display id of the saved student
-retrieve student based on the id: primary key
-display student
+Hacer un simple findById usando un DAO y su implementación
+Tener una clase Student con:
+id
+firstName
+lastName
+email
+
+Codigo:
+03ReadOperation
+hacer la implementación de findAll y luego que lo obtenga ordenado de forma descendente por lastName
 
 #########################################################################
 						Kata29
 #########################################################################
 spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\03-cruddemo-student-query-findAll
 1.- Que es JPQL
-2.- Como se vería usar JPQL
+2.- Como se vería usar JPQL y en que se basa (en lugar de tablas y columnas)
 3.- Como es la sintaxis para el uso de Named Parameters
 4.- En JPQL que sección es la que se elimina de un query tradicional
 a) ver como en StudentDAOImpl se hace un order by
 
-Codigo:. hacer la implementación de findAll y luego que lo obtenga ordenado de forma descendente por lastName
+Codigo:
+
+con JPQL hacer un query que traiga todos los estudiantes
+Hacer otro que traiga por id (cuyo id se lo pasa como parametro)
+Hacer que traiga dos nombres con un OR (relacionado con Kata30)
 
 #########################################################################
 						Kata30
 #########################################################################
 spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\04-cruddemo-student-query-findByLastName
+Kata: Ver kata29
 a) Ver como se hace un filtro con el query en StudentDAOImpl (named parameters)
 
 #########################################################################
