@@ -304,7 +304,7 @@ b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en 
 3.- Que es JPA? y su ventaja principal
 4.- Ejemplos de implementaciones de JPA
 5.- Como se vería guardar un objeto de java con JPA
-6.- Como se vería extraer información de la base de datos? por id y con JPAQL
+6.- Como se vería extraer información de la base de datos? por id y con JPAQL (con sintaxis completa creando la variable)
 7.- Que se tiene que configurar para trabajar con JPA (+Hibernate)
 
 #########################################################################
@@ -315,9 +315,9 @@ b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en 
 #########################################################################
 						Kata24
 #########################################################################
-A.- Cuales son los dos componentes para trabajar con mysql
+A.- Cuales son los dos componentes para trabajar con mysql (hablando unicamente de mysql, osea que viene siendo mysql workbench)
 B.- cual es el schema name dentro de workbench, donde esta posicionado en la vista de Schema
-1.- Cual es el componente principal para crear los queries
+1.- Cual es el componente principal para crear los queries (que pertenece a JPA)
 2.- En spring boot cual es la implementación por default de JPA?
 3.- Que Beans Spring boot crea automaticamente (basado en ciertas configuraciones)
 4.- Cuando se inicializa el proyecto en la pagina de spring initializer que hay que agregar como dependencia para que funcione con hibernate
@@ -475,7 +475,7 @@ a) Ejecutar y ver los logs (ddl-auto=create)
 						Kata35
 #########################################################################
 spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\01-spring-boot-rest-crud-hello-world\
-
+Revisar dudas [A] y [B]
 1.- Cuales son las diferentes formas que se llaman los servicios. Dependencia de REST con lenguajes y porque se dice que es language independent? formato de datos?
 2.- Sobre que protocolo se usa rest y cuales son las operaciones más comunes
 3.- Como esta conformado un HTTP Request Message y response message? status codes form the response?
@@ -488,11 +488,20 @@ a) Crear un rest service que al consumir /test/hello regrese "Hello world!"
 #########################################################################
 C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\02-spring-boot-rest-crud-students-list-base\
 [solo tomar en cuenta entity.Student y rest.StudentRestController
+
+A.- Formas de llamar la des/serialización
 1.- Que usa por detras spring para ser/deserializar. Cuando se usan getters/setters
+1.1.- Cual es la nomenclatura en la que Jackson se fija para trabajar con los metodos
 2.- Como se le llama a lo que consume un rest service
 3.- Como sería la dinamica entre Spring y jackson
 4.- Serialización vs Deserialización
 a)Crear un servicio que regresa una lista de estudiantes (datos hardcodeados dentro de la lista)
+
+codigo:
+Tener dos packages
+- entity
+- rest
+el endpoint sería /api/students y regresar una lista de students dummy que tienen firstName y lastName
 
 
 
