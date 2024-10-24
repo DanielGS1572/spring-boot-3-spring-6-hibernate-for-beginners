@@ -324,7 +324,7 @@ B.- cual es el schema name dentro de workbench, donde esta posicionado en la vis
 5.- De donde se lee la conexión a la base de datos
 
 #########################################################################
-						Kata25
+						Kata25 [DUDA]
 #########################################################################
 spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\01-cruddemo-student-create
 Codigo para la kata
@@ -339,6 +339,9 @@ spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud
 4.- Como poner el nivel de logs en warning y que es lo más conveniente para un ambiente productivo?
 5.- Que pasa si no se agregan las dos dependencias en maven y cuales serían esas dependencias
 
+[DUDA] Como configurar en lugar del properties una clase 
+[DUDA] Como es que al configurar el conector de base de datos no se le especifica la versión (tomaría la ultima?)
+=> para que sirve <scope>runtime</scope>
 
 =========================================== JPA/CRUD  =====================================================================================
 
@@ -400,7 +403,8 @@ lastName
 email
 
 Codigo:
-03ReadOperation
+03TemplateReadOperation
+=> \03-spring-boot-hibernate-jpa-crud\Templates
 hacer la implementación de findAll y luego que lo obtenga ordenado de forma descendente por lastName
 
 #########################################################################
@@ -518,7 +522,12 @@ b)  Como mandar llamar un metodo el cual será llamado una sola vez
 #########################################################################
 C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\04-spring-boot-rest-crud-students-path-variable-get-single-student
 1.- Que es una path variable
-a) Crear un endpoint que regrese a un solo estudiante /api/students/{studentsId}
+2.- Que pasa cuando arroja un error 500
+3.- como se vería la implementación de un path parameter
+a) Crear un endpoint que regrese a un solo estudiante /api/students/{studentsId} 
+- cargar toda la lista completa de students en un post construct
+- Tener un endpoint que regresa toda la info de estudiantes /api/students
+- Tener otro endpoint para regresar un estudiante por id /api/students/{studentsId}
 
 #########################################################################
 						Kata39

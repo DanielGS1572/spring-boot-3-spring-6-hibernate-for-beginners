@@ -14,11 +14,11 @@ import java.util.List;
 @RequestMapping("/api")
 public class StudentRestController {
 
-    private List<Student> theStudents;
+    private List<Student> theStudents;  // ver que se esta definiendo como field
 
-    @PostConstruct
+    @PostConstruct      //recordar que se cargara una sola vez cuando el Student Bean es construido
     public void loadData() {
-
+//TODO que pasaría si se quiere refrescar la información después de un tiempo
         theStudents = new ArrayList<>();
 
         theStudents.add(new Student("Poornima", "Patel"));
@@ -32,7 +32,7 @@ public class StudentRestController {
     @GetMapping("/students")
     public List<Student> getStudents() {
 
-        return theStudents;
+        return theStudents;     //recordar que aqui entra jackson
     }
 
 
