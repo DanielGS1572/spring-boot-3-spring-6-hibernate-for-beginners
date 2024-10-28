@@ -307,6 +307,11 @@ b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en 
 6.- Como se vería extraer información de la base de datos? por id y con JPAQL (con sintaxis completa creando la variable)
 7.- Que se tiene que configurar para trabajar con JPA (+Hibernate)
 
+Codigo:
+Hacer la conexión en el properties file
+Hacer un endpoint que con JPAQL regrese el número de elementos que existe en la base de datos Tabla Student
+Hacer el cambio del endpoint para que por el id (sin JPAQL) traiga el nombre de ese registro en la tabla de student
+
 #########################################################################
 						Kata23
 #########################################################################
@@ -377,7 +382,7 @@ spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud
 2a.- Cual sería una alternativa para EntityManager y cuando usar cual?
 3.- Para que sirve @Transactional
 4.- Que anotación se usa para los DAOs
-5.- Como ver la configuración de un esquema y que significa PK, NN, AI
+5.- Como ver la configuración de una tabla y que significa PK, NN, AI
 6.- Cómo cambiar que el AUTO_INCREMENT de la base de datos no empiece en 1 
 
 

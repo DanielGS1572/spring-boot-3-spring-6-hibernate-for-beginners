@@ -15,7 +15,7 @@ public class CruddemoApplication {
 	}
 
 	//Ver que se tiene que inyectar el DAO
-	@Bean
+	@Bean		//ver que no lleva @Autowired porque con la anotación @Bean ya se hace la inyección de dependencias
 	public CommandLineRunner commandLineRunner(StudentDAO studentDAO /*Como solo tiene una implementación se le pasa la interfaz*/) {		//Usado para crear un command line application
 		// esta lambda es la implementación de la interfaz runner
 		return runner -> {			//TODO video 73
