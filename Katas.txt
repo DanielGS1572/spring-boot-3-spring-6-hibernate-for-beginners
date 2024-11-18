@@ -131,9 +131,9 @@ b) hacer un rest-controller que jale información del properties file
 #########################################################################
 						Kata12
 #########################################################################
-Respuesta=>C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\01-constructor-injection
+Respuesta=>C:\Users\Usuario\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\01-constructor-injection
 Duplicar=> 01TemplatesForKatas-constructor-injection 
-=> C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates\
+=> C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates\01TemplatesForKatas-constructor-injection 
 a) Tener:
 - Una interface Coach que tenga un metodo getDailyworkout
 - Tener una implementacion de la interfaz
