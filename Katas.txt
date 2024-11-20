@@ -168,7 +168,8 @@ Duplicar=> 02TemplatesForKatas-component-scanning
 #########################################################################
 						Kata15 Setter Injection
 #########################################################################
-Respuesta => spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\03-setter-injection
+Respuesta => 
+C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\03-setter-injection
 Duplicar=> 03TemplatesForKatas-setter-injection
 => C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates\
 1.- Identificar los componentes de un setter injection (Como hacer @Component, @Autowired, etc). Usando de ejemplo Coach, CricketCoach, DemoController
