@@ -108,6 +108,21 @@ b) hacer un rest-controller que jale información del properties file
 
 
 =========================================== SPRING CORE ===========================================
+11/20
+
+[ok] Kata10
+[ok] Kata11
+[ok] Kata12
+[naranja] Kata13 .- Se me olvido la palabra scan en scanBasePackages
+[ok] Kata14
+[ok] Kata15
+
+9:05 - 9:12
+12:57 - 1:11
+6:27 - 6:35
+
+
+
 #########################################################################
 						Kata10
 #########################################################################
@@ -131,7 +146,11 @@ b) hacer un rest-controller que jale información del properties file
 #########################################################################
 						Kata12
 #########################################################################
-Respuesta=> C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\01-constructor-injection\pom.xml
+Respuesta=>
+J: C:\Users\dgonzali\Documents\Software\Code\repos\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\01-constructor-injection\
+P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\01-constructor-injection\
+
+spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\01-constructor-injection\pom.xml
 Duplicar=> 01TemplatesForKatas-constructor-injection 
 => C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates\01TemplatesForKatas-constructor-injection 
 a) Tener:
@@ -156,9 +175,17 @@ a) Tener:
 #########################################################################
 						Kata14 - Component Scanning
 #########################################################################
-Respuesta => spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\02-component-scanning
+Respuesta => 
+J: C:\Users\dgonzali\Documents\Software\Code\repos\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\02-component-scanning
+
+P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\02-component-scanning
+
 Duplicar=> 02TemplatesForKatas-component-scanning 
-=> C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates\
+=> 
+J: C:\Users\dgonzali\Documents\Software\Code\repos
+P: C:\Users\Usuario\Documents\Repositorios\
+spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates\
+
 - Hacer lo mismo que kata12 pero ordenar en packages de Common y rest
 => Hacer que funcione el component scanning
 => Romper el component scanning metiendo en una clase de utils lo que estaba en commons (ejecutar y ver que manda de error)
@@ -169,9 +196,15 @@ Duplicar=> 02TemplatesForKatas-component-scanning
 						Kata15 Setter Injection
 #########################################################################
 Respuesta => 
-C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\03-setter-injection
+J: C:\Users\dgonzali\Documents\Software\Code\repos
+P: C:\Users\Usuario\Documents\Repositorios\
+spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\03-setter-injection
+
 Duplicar=> 03TemplatesForKatas-setter-injection
-=> C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates\
+=> 
+J: C:\Users\dgonzali\Documents\Software\Code\repos
+P: C:\Users\Usuario\Documents\Repositorios\
+spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates\
 1.- Identificar los componentes de un setter injection (Como hacer @Component, @Autowired, etc). Usando de ejemplo Coach, CricketCoach, DemoController
 1.1.- Identificar como sería la secuencia de new (como lo haría spring por detras)
 2.- Cuando usar setter/constructor injection
@@ -183,6 +216,8 @@ a) Hacer un setter injection basado en el punto 1 (pero que el nombre del set no
 #########################################################################
 						Kata16 Qualifier
 #########################################################################
+J: C:\Users\dgonzali\Documents\Software\Code\repos
+P: C:\Users\Usuario\Documents\Repositorios\
 spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\04-qualifiers
 Duplicar=> 04TemplatesForKatas-qualifier
 \spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates
@@ -195,9 +230,14 @@ c) que hacer como buena practica después de importar un proyecto?
 #########################################################################
 						Kata17
 #########################################################################
+J: C:\Users\dgonzali\Documents\Software\Code\repos
+P: C:\Users\Usuario\Documents\Repositorios\
 spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\05-primary
-Duplicar=> 05TemplatesForKatas-primary
-\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates
+Duplicar=>
+J: C:\Users\dgonzali\Documents\Software\Code\repos
+P: C:\Users\Usuario\Documents\Repositorios\
+spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates\05TemplatesForKatas-primary
+
 1.- Que otra alternativa se puede usar en lugar de @Qualifier? y cómo se comportaría si existen multiples implementaciones de una interfaz
 2.- Que error mandaría cuando se utiliza @Primary con multiples implementaciones
 3.- Cual tiene mayor prioridad entre Qualifier y Primary?
@@ -208,6 +248,8 @@ Codigo:
 #########################################################################
 						Kata18
 #########################################################################
+J: C:\Users\dgonzali\Documents\Software\Code\repos
+P: C:\Users\Usuario\Documents\Repositorios\
 spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\06-lazy-initialization
 1.- Que sucede con los beans una vez que arranca el proyecto
 1.1.- De que manera se pudiera depurar el comportamiento que son inicializados
@@ -223,6 +265,8 @@ spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\06-laz
 
 Ejercicio codigo
 Duplicar=> 
+J: C:\Users\dgonzali\Documents\Software\Code\repos
+P: C:\Users\Usuario\Documents\Repositorios\
 \spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates
 - tener la interfaz de Coach, tener 3 implementaciones de la cual 1 esta anotada con Lazy. Cada implementacion en el constructor poner getClass().getSimpleName() [incluyendo al Controller]
 - Tener el archivo de configuración seteado con false  y que el qualifier apunte al bean que no esta marcado como lazy
