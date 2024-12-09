@@ -1,3 +1,17 @@
+Revisar
+https://www.youtube.com/watch?v=2JjVCOO9Xas&list=PL3hxfBdbS9AaXBWIZnwYMKFHSZY07FJX3
+
+https://www.fiverr.com/hemalathakk/develop-web-apps-in-spring-boot-react-js-and-jsp?context_referrer=search_gigs&source=top-bar&ref_ctx_id=be9c0bf2a12345898f0fed5779a1f291&pckg_id=1&pos=4&ad_key=625fdd80-2e41-4475-87c1-2573e9e70738&context_type=auto&funnel=be9c0bf2a12345898f0fed5779a1f291&imp_id=135b105b-c4c2-49fe-a396-b20bd0ec9cec
+
+https://www.youtube.com/@dailycodework
+https://www.udemy.com/course/a-complete-guide-to-java-full-stack-development-with-react/?couponCode=DCWJANCC
+
+https://www.youtube.com/watch?v=oGhc5Z-WJSw
+https://www.youtube.com/watch?v=-Fe0zk-F4OA&t=7661s
+https://www.youtube.com/shorts/N2GING1in08
+
+https://www.youtube.com/watch?v=2X9wHM93LWI
+
 REVISAR CONTRA NOTION
 https://www.notion.so/Spring-Boot-Chad-50379c55775444d8917784f870e334f5
 
@@ -217,8 +231,7 @@ a) Hacer un setter injection basado en el punto 1 (pero que el nombre del set no
 						Kata16 Qualifier
 #########################################################################
 J: C:\Users\dgonzali\Documents\Software\Code\repos
-P: C:\Users\Usuario\Documents\Repositorios\
-spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\04-qualifiers
+P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\04-qualifiers
 Duplicar=> 04TemplatesForKatas-qualifier
 \spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates
 1.- Como se vería un error cuando se quiere hacer Autowired y se tienen varias implementaciones anotadas con Component
@@ -249,8 +262,7 @@ Codigo:
 						Kata18
 #########################################################################
 J: C:\Users\dgonzali\Documents\Software\Code\repos
-P: C:\Users\Usuario\Documents\Repositorios\
-spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\06-lazy-initialization
+P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\06-lazy-initialization
 1.- Que sucede con los beans una vez que arranca el proyecto
 1.1.- De que manera se pudiera depurar el comportamiento que son inicializados
 2.- Para que sirve Lazy initialization y cuales son los dos escenarios en los que se inicializan. Como se configura en la clase
@@ -270,7 +282,7 @@ P: C:\Users\Usuario\Documents\Repositorios\
 \spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates
 - tener la interfaz de Coach, tener 3 implementaciones de la cual 1 esta anotada con Lazy. Cada implementacion en el constructor poner getClass().getSimpleName() [incluyendo al Controller]
 - Tener el archivo de configuración seteado con false  y que el qualifier apunte al bean que no esta marcado como lazy
-(como se comportaría)
+(como se comportaría)... Ver que si el controller no se pone Lazy, cargará incluso las clases marcadas como lazy
 - Cambiar la configuración a true... como hacer para que despliegue en consola
 
 
@@ -286,7 +298,8 @@ spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\07-bea
 1.- Cuales son los 4 puntos a considerar con “bean scopes”
 2.- Cual es el scope por default? y cuales son sus caracteristicas
 3.- Cómo se configura el scope a un @Component
-4.- Hacer un endpoint que valide si es prototype o singleton (teniendo dos beans diferentes y haciendo uso de @Qualifier)
+4.-  Cuales son los 5 diferentes bean scopes?
+5.- Hacer un endpoint que valide si es prototype o singleton (teniendo dos beans diferentes y haciendo uso de @Qualifier)
 
 Ignorar: esto da respuesta del ejercicio 4)
 a) Cambiar la configuración del @Scope para CricketCoach e ir a http://localhost:8080/check (ver comentario adicional sobre SCOPE_SINGLETON)
@@ -296,13 +309,13 @@ a) Cambiar la configuración del @Scope para CricketCoach e ir a http://localhos
 #########################################################################
 						Kata20
 #########################################################################
-spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\08-bean-lifecycle-methods
-1.- Cual es el ciclo de vida de un bean a grandes rasgos (5 pasos aprox)
+P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\08-bean-lifecycle-methods
+1.- Cual es el ciclo de vida de un bean a grandes rasgos (3 pasos)
 2.- De que otra manera se pueden llamar los “Bean LifeCycle Methods” y para que se usan
 3.- Que anotación se usa para configurar un metodo antes de la destrucción de beans
 4.- Que anotación se usa para cuando se inicializan los beans
 5.- Consideracion a tomar en cuenta con prototype beans y el ciclo de vida de destroy
-Hacer uso de las anotaciones de PostConstruct y PreDestroy. Poner us sout en cada una y en el constructor (identificar que se imprime primero). [Tener un solo bean, un controller y una clase main]
+Hacer uso de las anotaciones de PostConstruct y PreDestroy. Poner us sout en cada una y en el constructor (identificar que se imprime primero). [Tener un solo bean, un controller y una clase main, hacer el ejercicio con singleton y prototype]
 
 
 
@@ -337,7 +350,7 @@ Ignorar lo siguiente hasta terminar el ejercicio de Codigo
 
 
 
-a).- Ver que SwimCoach es una simple clase de java
+a).- Ver que SwimCoach es una simple clase de java y no esta anotada con @Component
 b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en lugar de usar el default (nombre del metodo)
 
 =========================================== Hibernate & JPA ===========================================
@@ -587,11 +600,16 @@ C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-r
 3.- Que es lo que regresa el  @ExceptionHandler? que hace? y que contiene?
 2.- Pasos para lograr arrojar un mensaje de error correctamente
 4.- Como generar la clase para el manejo de la excepción?
+5.- A que se le llama service? a que clase?
 a) Regresar una lista de estudiantes y cuando tire una excepción por Index que mande el mensaje correcto
 b) Cual es el approach mas comun para crear excepciones (StudentNotFoundException)
 c) Consideraciones al trabajar con la anotación @ExceptionHandler
 d) Resolver duda todo de StudentRestController
 e) Como abarcar los Edge Cases para manejar la excepción
+
+Hacer el punto 2  en codigo... pero al tirar la excepción que nada más se valide el tamaño de lo que regresa o si el id es menor a 0
+[Pasos para lograr arrojar un mensaje de error correctamente]
+Donde debe de ir el @ExceptionHandler?
 
 #########################################################################
 						Kata40
