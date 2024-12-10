@@ -326,7 +326,7 @@ c).- Identificar que cuando se para la ejecución se ejecuta doMyCleanupStuff()
 #########################################################################
 						Kata21
 #########################################################################
-spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\09-java-config-bean
+P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\09-java-config-bean
 1.- Como hacer configuraciones manuales de los beans con java
 1A.- Que nombre tomaría el bean?
 2.- Para que usar Bean y no simplemente @Component
@@ -364,6 +364,8 @@ b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en 
 5.- Como se vería guardar un objeto de java con JPA
 6.- Como se vería extraer información de la base de datos? por id y con JPAQL (con sintaxis completa creando la variable)
 7.- Que se tiene que configurar para trabajar con JPA (+Hibernate)
+8.- Cuales las 3 operaciones de esta kata (respuesta puntos 5 y 6 de notion)
+9.- PENDIENTE: definir kata para hacer las 3 operaciones del punto 8
 
 Codigo:
 Hacer la conexión en el properties file
@@ -389,7 +391,7 @@ B.- cual es el schema name dentro de workbench, donde esta posicionado en la vis
 #########################################################################
 						Kata25 [DUDA]
 #########################################################################
-spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\01-cruddemo-student-create
+P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\01-cruddemo-student-create
 Codigo para la kata
 spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\Templates\01TemplateConnectionConfiguration
 
@@ -574,7 +576,7 @@ el endpoint sería /api/students y regresar una lista de students dummy que tien
 
 #########################################################################
 						Kata37
-#########################################################################
+#########################################################################x
 C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\03-spring-boot-rest-crud-students-list-refactored
 a) Del proyecto anterior (kata36) que es lo que estaba mal hecho y como se corrigió
 b)  Como mandar llamar un metodo el cual será llamado una sola vez
@@ -593,9 +595,9 @@ a) Crear un endpoint que regrese a un solo estudiante /api/students/{studentsId}
 - Tener otro endpoint para regresar un estudiante por id /api/students/{studentsId}
 
 #########################################################################
-						Kata39
+						Kata39 [Video 108-109]
 #########################################################################
-C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\05-spring-boot-rest-crud-students-exception-handling
+P: C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\05-spring-boot-rest-crud-students-exception-handling
 1.- Idealmente como responder ante una excepción que no encuentra un elemento de una lista o que arroja una excepción
 3.- Que es lo que regresa el  @ExceptionHandler? que hace? y que contiene?
 2.- Pasos para lograr arrojar un mensaje de error correctamente
@@ -612,26 +614,44 @@ Hacer el punto 2  en codigo... pero al tirar la excepción que nada más se vali
 Donde debe de ir el @ExceptionHandler?
 
 #########################################################################
-						Kata40
+						Kata40 [Video 110 - 111]
 #########################################################################
+P:
 C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\06-spring-boot-rest-crud-students-global-exception-handling\
 1.- De que manera interceptar y Pre/post procesar el manejo de excepciones para que no haya codigo repetido. Que anotación y que usa por detras
 2.- Que beneficio trae hacer lo anterior
+3.- [StudentRestExceptionHandler [A]] A que es similar la anotación que se usa para lo anterior
 a) Como hacer refactor del proyecto anterior para que se configure el manejo de la excepción de forma global
 
+Dudas
+1) Porque no hay nada anotado con @Component en la clase de student, ni marcado como entity? como es que funciona
+2) 
+
+
 #########################################################################
-						Kata41
+						Kata41 [112 - ]
 #########################################################################
 C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\20-spring-boot-rest-crud-employee-list-employees\pom.xml
 1.- 3 pasos para diseñar una API
 2.- Ejemplo de antipatterns dentro de rest
-3- Ejemplo de endpoint para manipular los datos de employee (5 casos)
+3- Ejemplo de endpoint para manipular los datos de employee (5 casos, con su URI)
+3.1- Como se trabajaría con el comportamiento/acción
 4- Como sería la arquitectura de un endpoint
 5- Que dependencias poner en spring initializr al construir el proyecto para hacer un rest api
 6- Cual es el development process para  crear una rest api
-a) Resolver duda "USING STANDARD JPA API" => A que se refiere?
+7.- De que otra mandera se puede representar path parameters
+8.- Como sería la arquitectura de la aplicación para trabajar con "employees"
+
+[Pendiente] a) Resolver duda "USING STANDARD JPA API" => A que se refiere?
 b) Aparte de EntityManager que otras formas se puede hacer la implementación del DAO
 c) Resolver duda de Employee (constructor)
+
+Pasos primeros para empezar a hacer la api
+Set up database env [schema name= employee_directory], en caso que no se haya ejecutado:
+C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\spring-boot-employee-sql-script
+Create spring boot project using Spring Initializr
+
+
 Crear rest api
 - Get a list of employees
 - Get single employee by id
