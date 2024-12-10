@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-@ControllerAdvice
+@ControllerAdvice    //[A]es similar a un interceptor /filter
 public class StudentRestExceptionHandler {
 //Se creó esta clase y se pusieron los @ExceptionHandler (cut paste de StudentRestController)
 //Ver que esta clase no esta asociada a StudentRestController, ni StudentRestController apunta a esta clase
