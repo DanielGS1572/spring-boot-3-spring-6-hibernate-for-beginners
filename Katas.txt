@@ -278,8 +278,7 @@ P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-
 Ejercicio codigo
 Duplicar=> 
 J: C:\Users\dgonzali\Documents\Software\Code\repos
-P: C:\Users\Usuario\Documents\Repositorios\
-\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates
+P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\Templates
 - tener la interfaz de Coach, tener 3 implementaciones de la cual 1 esta anotada con Lazy. Cada implementacion en el constructor poner getClass().getSimpleName() [incluyendo al Controller]
 - Tener el archivo de configuración seteado con false  y que el qualifier apunte al bean que no esta marcado como lazy
 (como se comportaría)... Ver que si el controller no se pone Lazy, cargará incluso las clases marcadas como lazy
@@ -294,8 +293,8 @@ b) Cambiar la bander a true y ver que nada más inicializa los beans al entrar a
 #########################################################################
 						Kata19
 #########################################################################
-spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\07-bean-scopes
-1.- Cuales son los 4 puntos a considerar con “bean scopes”
+C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\02-spring-boot-spring-core\07-bean-scopes
+1.- Cuales son los 3 puntos a considerar con “bean scopes”  (a que se refiere bean scopes)
 2.- Cual es el scope por default? y cuales son sus caracteristicas
 3.- Cómo se configura el scope a un @Component
 4.-  Cuales son los 5 diferentes bean scopes?
@@ -315,7 +314,9 @@ P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-
 3.- Que anotación se usa para configurar un metodo antes de la destrucción de beans
 4.- Que anotación se usa para cuando se inicializan los beans
 5.- Consideracion a tomar en cuenta con prototype beans y el ciclo de vida de destroy
+6.- Consideración importante al usar @Postconstruct/@Predestroy (ver TrackCoach/CricketCoach que tiene Post/Pre )
 Hacer uso de las anotaciones de PostConstruct y PreDestroy. Poner us sout en cada una y en el constructor (identificar que se imprime primero). [Tener un solo bean, un controller y una clase main, hacer el ejercicio con singleton y prototype]
+
 
 
 
@@ -365,7 +366,7 @@ b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en 
 6.- Como se vería extraer información de la base de datos? por id y con JPAQL (con sintaxis completa creando la variable)
 7.- Que se tiene que configurar para trabajar con JPA (+Hibernate)
 8.- Cuales las 3 operaciones de esta kata (respuesta puntos 5 y 6 de notion)
-9.- PENDIENTE: definir kata para hacer las 3 operaciones del punto 8
+9.- PENDIENTE: definir kata con códgo para hacer las 3 operaciones del punto 8
 
 Codigo:
 Hacer la conexión en el properties file

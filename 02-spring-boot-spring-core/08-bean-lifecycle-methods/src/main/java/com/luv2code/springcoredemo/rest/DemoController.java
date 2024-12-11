@@ -12,17 +12,19 @@ public class DemoController {
     // define a private field for the dependency
     private Coach myCoach;
 
-    @Autowired
+    //Descomentar el código en caso que sea necesario (Constructor)
+   /* @Autowired
     public DemoController(
                 @Qualifier("cricketCoach") Coach theCoach) {
         System.out.println("In constructor: " + getClass().getSimpleName());
         myCoach = theCoach;
-    }
+    }*/
 
     @GetMapping("/dailyworkout")
     public String getDailyWorkout() {
         return myCoach.getDailyWorkout();
     }
+
     @GetMapping("/exit")
     public void exit() {
         System.exit(0);
