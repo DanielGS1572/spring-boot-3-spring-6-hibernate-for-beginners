@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("/api")
 public class EmployeeRestController {
 
-    private EmployeeService employeeService;
+    private EmployeeService employeeService;        //Ver que ahora en lugar de apuntar al DAO apunta a un servicio
 
     // quick and dirty: inject employee dao (use constructor injection)
     @Autowired
@@ -24,7 +24,7 @@ public class EmployeeRestController {
     // expose "/employees" and return a list of employees
     @GetMapping("/employees")
     public List<Employee> findAll() {
-        return employeeService.findAll();
+        return employeeService.findAll();       //delegates the calls to the DAO
     }
 
 }

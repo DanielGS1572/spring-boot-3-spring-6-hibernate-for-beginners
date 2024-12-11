@@ -1,3 +1,10 @@
+Boomerang
+https://www.amazon.com.mx/Shark-Rang-Boomerang-boomerang-principiantes/dp/B08NH1PWQ4/ref=sr_1_5?crid=OZDC3PY2Y0DF&dib=eyJ2IjoiMSJ9.s0bhpWpZf5VV67pNxyR15GCDjXHam_30sub2eCeNSJmJsoJts4MEiRZxLfnJJDWeLBQ84ZQVltb3eKzEKd08eoAfUWhcMosSoyhdfW9vvkJC2vfwPuZxllIF4UdzyFmpkAcS2q2i09-39sWMV_TvfHUgNfWKqwc72GoKOmJyj_8vzJy-dbz_vd61tDM8w7nVdS2gNajbmNHfK5juhFDsbL6YUCw6ooIGnKD5q4CzxggPWQBOawddPM-h6C_3RU2o2pP85M35j7gxmTGaHOKXEyw5eoNOR5kafeozWydULOg0Hq5jCHs7H501CL5g8AjY8_kNcFUIztROz_icQVlu6reHqrM-6wzdGo4OhvcSX1qJlOcGaoUllK0S66TdaHkkiJm1wExcIkgTMJdKKx78I_oapiRqov9G1wjt1Fv2elqVgYpcTF1v73vR4pqRMD3L.Dl91m4ZlzS0Z2Z593ZcnAxZmMJ61sFcV6_zur5dGgmQ&dib_tag=se&keywords=boomerang+para+ni%C3%B1os&qid=1733882240&sprefix=boomer%2Caps%2C168&sr=8-5&ufe=app_do%3Aamzn1.fos.de93fa6a-174c-4df7-be7c-5bc8e9c5a71b
+
+https://www.amazon.com.mx/Boomerang-para-interiores-unidades-principiantes/dp/B08TPP6DNN/ref=sr_1_30?crid=OZDC3PY2Y0DF&dib=eyJ2IjoiMSJ9.s0bhpWpZf5VV67pNxyR15GCDjXHam_30sub2eCeNSJmJsoJts4MEiRZxLfnJJDWeLBQ84ZQVltb3eKzEKd08eoAfUWhcMosSoyhdfW9vvkJC2vfwPuZxllIF4UdzyFmpkAcS2q2i09-39sWMV_TvfHUgNfWKqwc72GoKOmJyj_8vzJy-dbz_vd61tDM8w7nVdS2gNajbmNHfK5juhFDsbL6YUCw6ooIGnKD5q4CzxggPWQBOawddPM-h6C_3RU2o2pP85M35j7gxmTGaHOKXEyw5eoNOR5kafeozWydULOg0Hq5jCHs7H501CL5g8AjY8_kNcFUIztROz_icQVlu6reHqrM-6wzdGo4OhvcSX1qJlOcGaoUllK0S66TdaHkkiJm1wExcIkgTMJdKKx78I_oapiRqov9G1wjt1Fv2elqVgYpcTF1v73vR4pqRMD3L.Dl91m4ZlzS0Z2Z593ZcnAxZmMJ61sFcV6_zur5dGgmQ&dib_tag=se&keywords=boomerang+para+ni%C3%B1os&qid=1733882240&sprefix=boomer%2Caps%2C168&sr=8-30&ufe=app_do%3Aamzn1.fos.de93fa6a-174c-4df7-be7c-5bc8e9c5a71b
+
+
+
 Revisar
 https://www.youtube.com/watch?v=2JjVCOO9Xas&list=PL3hxfBdbS9AaXBWIZnwYMKFHSZY07FJX3
 
@@ -336,6 +343,8 @@ P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-
 - Que otra característica importante tendría la clase a la que se quiere hacer el bean
 4.- Cuales son las 4 anotaciones para estereotipar las clases. Cuales son las anotaciones "especializadas"
 4a.- Que anotacion sirve para beneficios adicionales como AOP y generación de documentación
+b) Como customizar el nombre del bean?
+dentro de este mismo archivo en b) se puede ver la respuesta
 
 Codigo:
 Duplicar=> 07TemplatesForKatas-bean
@@ -387,7 +396,7 @@ B.- cual es el schema name dentro de workbench, donde esta posicionado en la vis
 2.- En spring boot cual es la implementación por default de JPA?
 3.- Que Beans Spring boot crea automaticamente (basado en ciertas configuraciones)
 4.- Cuando se inicializa el proyecto en la pagina de spring initializer que hay que agregar como dependencia para que funcione con hibernate
-5.- De donde se lee la conexión a la base de datos
+5.- De donde se lee la conexión a la base de datos y que es lo que no se tiene que hacer pues lo toma en el string connection
 
 #########################################################################
 						Kata25 [DUDA]
@@ -630,7 +639,7 @@ Dudas
 
 
 #########################################################################
-						Kata41 [112 - ]
+						Kata41 [112 - 115]
 #########################################################################
 C:\Users\Usuario\spring-boot-3-spring-6-hibernate-for-beginners\04-spring-boot-rest-crud\20-spring-boot-rest-crud-employee-list-employees\pom.xml
 1.- 3 pasos para diseñar una API

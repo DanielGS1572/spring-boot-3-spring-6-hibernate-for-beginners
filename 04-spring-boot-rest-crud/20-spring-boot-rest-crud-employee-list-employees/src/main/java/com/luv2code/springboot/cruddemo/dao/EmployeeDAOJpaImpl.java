@@ -25,7 +25,7 @@ public class EmployeeDAOJpaImpl implements EmployeeDAO {
 
 
     @Override
-    public List<Employee> findAll() {       //"USING STANDARD JPA API" => A que se refiere?
+    public List<Employee> findAll() {       //"USING STANDARD JPA API" => A que se refiere? Se refiere a que esta usando entityManager (que es JPA Puro)
 
         // create a query (JPQL)
         TypedQuery<Employee> theQuery = entityManager.createQuery("from Employee", Employee.class);

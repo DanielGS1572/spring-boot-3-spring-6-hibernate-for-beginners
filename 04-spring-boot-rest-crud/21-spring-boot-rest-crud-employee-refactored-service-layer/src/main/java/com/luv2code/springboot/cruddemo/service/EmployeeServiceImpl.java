@@ -11,7 +11,7 @@ import java.util.List;
 public class EmployeeServiceImpl implements EmployeeService {
 
     private EmployeeDAO employeeDAO;
-
+//Setup constuctor injection
     @Autowired
     public EmployeeServiceImpl(EmployeeDAO theEmployeeDAO) {
         employeeDAO = theEmployeeDAO;
