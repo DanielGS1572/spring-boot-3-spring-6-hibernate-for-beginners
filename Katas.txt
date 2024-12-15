@@ -2,6 +2,9 @@ Transforming ER Diagrams to a Relational Schema
 https://www.youtube.com/watch?v=OwdFzygGZqk
 
 
+Database design course
+https://www.youtube.com/watch?v=ztHopE5Wnpc
+
 Revisar
 https://www.youtube.com/watch?v=2JjVCOO9Xas&list=PL3hxfBdbS9AaXBWIZnwYMKFHSZY07FJX3
 
@@ -378,7 +381,7 @@ P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-
 
 
 Kata:
-
+C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\Templates\01-cruddemo-student-create
 Implementar los siguientes metodos
 save(Student theStudent);
 find(int id);
