@@ -18,12 +18,12 @@ public class EmployeeServiceImpl implements EmployeeService {
         employeeDAO = theEmployeeDAO;
     }
 
-    @Override
+    @Override       //Ver que no lleva @Transactional porque no se esta modificando la base de datos
     public List<Employee> findAll() {
         return employeeDAO.findAll();
     }
 
-    @Override
+    @Override       //Ver que no lleva @Transactional porque no se esta modificando la base de datos
     public Employee findById(int theId) {
         return employeeDAO.findById(theId);
     }

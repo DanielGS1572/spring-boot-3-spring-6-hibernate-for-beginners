@@ -1,8 +1,5 @@
-Boomerang
-https://www.amazon.com.mx/Shark-Rang-Boomerang-boomerang-principiantes/dp/B08NH1PWQ4/ref=sr_1_5?crid=OZDC3PY2Y0DF&dib=eyJ2IjoiMSJ9.s0bhpWpZf5VV67pNxyR15GCDjXHam_30sub2eCeNSJmJsoJts4MEiRZxLfnJJDWeLBQ84ZQVltb3eKzEKd08eoAfUWhcMosSoyhdfW9vvkJC2vfwPuZxllIF4UdzyFmpkAcS2q2i09-39sWMV_TvfHUgNfWKqwc72GoKOmJyj_8vzJy-dbz_vd61tDM8w7nVdS2gNajbmNHfK5juhFDsbL6YUCw6ooIGnKD5q4CzxggPWQBOawddPM-h6C_3RU2o2pP85M35j7gxmTGaHOKXEyw5eoNOR5kafeozWydULOg0Hq5jCHs7H501CL5g8AjY8_kNcFUIztROz_icQVlu6reHqrM-6wzdGo4OhvcSX1qJlOcGaoUllK0S66TdaHkkiJm1wExcIkgTMJdKKx78I_oapiRqov9G1wjt1Fv2elqVgYpcTF1v73vR4pqRMD3L.Dl91m4ZlzS0Z2Z593ZcnAxZmMJ61sFcV6_zur5dGgmQ&dib_tag=se&keywords=boomerang+para+ni%C3%B1os&qid=1733882240&sprefix=boomer%2Caps%2C168&sr=8-5&ufe=app_do%3Aamzn1.fos.de93fa6a-174c-4df7-be7c-5bc8e9c5a71b
-
-https://www.amazon.com.mx/Boomerang-para-interiores-unidades-principiantes/dp/B08TPP6DNN/ref=sr_1_30?crid=OZDC3PY2Y0DF&dib=eyJ2IjoiMSJ9.s0bhpWpZf5VV67pNxyR15GCDjXHam_30sub2eCeNSJmJsoJts4MEiRZxLfnJJDWeLBQ84ZQVltb3eKzEKd08eoAfUWhcMosSoyhdfW9vvkJC2vfwPuZxllIF4UdzyFmpkAcS2q2i09-39sWMV_TvfHUgNfWKqwc72GoKOmJyj_8vzJy-dbz_vd61tDM8w7nVdS2gNajbmNHfK5juhFDsbL6YUCw6ooIGnKD5q4CzxggPWQBOawddPM-h6C_3RU2o2pP85M35j7gxmTGaHOKXEyw5eoNOR5kafeozWydULOg0Hq5jCHs7H501CL5g8AjY8_kNcFUIztROz_icQVlu6reHqrM-6wzdGo4OhvcSX1qJlOcGaoUllK0S66TdaHkkiJm1wExcIkgTMJdKKx78I_oapiRqov9G1wjt1Fv2elqVgYpcTF1v73vR4pqRMD3L.Dl91m4ZlzS0Z2Z593ZcnAxZmMJ61sFcV6_zur5dGgmQ&dib_tag=se&keywords=boomerang+para+ni%C3%B1os&qid=1733882240&sprefix=boomer%2Caps%2C168&sr=8-30&ufe=app_do%3Aamzn1.fos.de93fa6a-174c-4df7-be7c-5bc8e9c5a71b
-
+Transforming ER Diagrams to a Relational Schema
+https://www.youtube.com/watch?v=OwdFzygGZqk
 
 
 Revisar
@@ -367,6 +364,7 @@ b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en 
 #########################################################################
 						Kata22
 #########################################################################
+P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\01-cruddemo-student-create
 1.- Que es Hibernate?
 2.- Beneficios de usar hibernate?
 3.- Que es JPA? y su ventaja principal
@@ -377,11 +375,15 @@ b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en 
 8.- Cuales las 3 operaciones de esta kata (respuesta puntos 5 y 6 de notion)
 9.- PENDIENTE: definir kata con códgo para hacer las 3 operaciones del punto 8
 
-Codigo:
-Hacer la conexión en el properties file
-Hacer un endpoint que con JPAQL regrese el número de elementos que existe en la base de datos Tabla Student
-Hacer el cambio del endpoint para que por el id (sin JPAQL) traiga el nombre de ese registro en la tabla de student
 
+
+Kata:
+
+Implementar los siguientes metodos
+save(Student theStudent);
+find(int id);
+getListOfStudents();
+Hacer la conexión en el properties file
 #########################################################################
 						Kata23
 #########################################################################
@@ -403,7 +405,7 @@ B.- cual es el schema name dentro de workbench, donde esta posicionado en la vis
 #########################################################################
 P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\01-cruddemo-student-create
 Codigo para la kata
-spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\Templates\01TemplateConnectionConfiguration
+C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\Templates\01TemplateConnectionConfiguration
 
 1.- Para que sirve el CommandLineRunner de spring boot
 2.- Como crear un command line application de spring boot
@@ -413,6 +415,7 @@ spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud
 3.- Como apagar el banner de spring boot de consola
 4.- Como poner el nivel de logs en warning y que es lo más conveniente para un ambiente productivo?
 5.- Que pasa si no se agregan las dos dependencias en maven y cuales serían esas dependencias
+6.- probar que carga primero psvm ó el commandLineRunner
 
 [DUDA] Como configurar en lugar del properties una clase 
 [DUDA] Como es que al configurar el conector de base de datos no se le especifica la versión (tomaría la ultima?)
@@ -427,7 +430,7 @@ spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud
 spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\01-cruddemo-student-create
 a.- Como se refiere a hibernate dentro de spring boot
 1.- Que es un entity class
-2.- Como minimo que debe tener un entity class?
+2.- Como minimo que debe tener un entity class? (2)
 3.- 2 Pasos para crear un entity class
 Como se llamaría el nombre de la tabla si no se usa la anotacion Table
 porque a pesar que no es necesario usar anotaciones, siempre es recomendable para Table y Column

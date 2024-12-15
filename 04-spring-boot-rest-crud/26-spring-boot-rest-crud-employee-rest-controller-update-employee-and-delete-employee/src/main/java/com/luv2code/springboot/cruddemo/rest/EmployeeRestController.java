@@ -26,7 +26,7 @@ public class EmployeeRestController {
 
     // add mapping for GET /employees/{employeeId}
 
-    @GetMapping("/employees/{employeeId}")
+    @GetMapping("/employees/{employeeId}")      //el path variable tiene que ser el mismo "employeeId"
     public Employee getEmployee(@PathVariable int employeeId) {
 
         Employee theEmployee = employeeService.findById(employeeId);
@@ -46,9 +46,10 @@ public class EmployeeRestController {
         // also just in case they pass an id in JSON ... set id to 0
         // this is to force a save of new item ... instead of update
 
-        theEmployee.setId(0);
+        theEmployee.setId(0);       //todo importante, si se le intenta setear en el request un id solo para asegurar que no actualice algo existente
+        //pendiente hacer la prueba de setear un id
 
-        Employee dbEmployee = employeeService.save(theEmployee);
+        Employee dbEmployee = employeeService.save(theEmployee);        //todo, que esto no sería merge?, si, así es como se hace en el DAO
 
         return dbEmployee;
     }
@@ -58,7 +59,7 @@ public class EmployeeRestController {
     @PutMapping("/employees")
     public Employee updateEmployee(@RequestBody Employee theEmployee) {
 
-        Employee dbEmployee = employeeService.save(theEmployee);
+        Employee dbEmployee = employeeService.save(theEmployee);        //ver que se delega al service y no al dao
 
         return dbEmployee;
     }
