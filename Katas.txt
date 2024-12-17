@@ -1,6 +1,19 @@
 Transforming ER Diagrams to a Relational Schema
 https://www.youtube.com/watch?v=OwdFzygGZqk
 
+https://www.youtube.com/watch?v=CwOo82ftXV8
+https://www.youtube.com/watch?v=uN_MyUmiHiw
+
+https://www.skool.com/aiworkshop/about
+https://www.skool.com/alquimia-elite/about
+https://www.youtube.com/watch?v=DdDrNqD0d3g&list=PLH1tkjphTlWUJnUkawysLw7T0DGIrSH9B&index=3
+https://www.youtube.com/watch?v=j-So4VYTL98
+https://www.youtube.com/watch?v=SLvSudKpAW0
+
+https://www.youtube.com/watch?v=XQ7wNqbB1x8
+https://www.youtube.com/watch?v=xXNr9mrdV7s
+
+https://www.youtube.com/watch?v=lo9xZWYJQeY
 
 Database design course
 https://www.youtube.com/watch?v=ztHopE5Wnpc
@@ -368,6 +381,9 @@ b).- Ver que en SportConfig entre parentesis se establece el nombre del bean en 
 						Kata22
 #########################################################################
 P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\01-cruddemo-student-create
+
+Kata:
+C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\Templates\01-cruddemo-student-create
 1.- Que es Hibernate?
 2.- Beneficios de usar hibernate?
 3.- Que es JPA? y su ventaja principal
@@ -379,9 +395,7 @@ P: C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-
 9.- PENDIENTE: definir kata con códgo para hacer las 3 operaciones del punto 8
 
 
-
-Kata:
-C:\Users\Usuario\Documents\Repositorios\spring-boot-3-spring-6-hibernate-for-beginners\03-spring-boot-hibernate-jpa-crud\Templates\01-cruddemo-student-create
+kata
 Implementar los siguientes metodos
 save(Student theStudent);
 find(int id);
